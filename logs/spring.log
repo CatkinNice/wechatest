@@ -1,0 +1,27 @@
+2016-06-03 01:43:32.763  INFO 9508 --- [main] cn.catkin.wechatest.App                  : Starting App on catkin_nice with PID 9508 (D:\work\eclipse\wechatest\target\classes started by Administrator in D:\work\eclipse\wechatest)
+2016-06-03 01:43:32.765  INFO 9508 --- [main] cn.catkin.wechatest.App                  : No active profile set, falling back to default profiles: default
+2016-06-03 01:43:32.805  INFO 9508 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48a242ce: startup date [Fri Jun 03 01:43:32 CST 2016]; root of context hierarchy
+2016-06-03 01:43:34.006  INFO 9508 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 2580 (http)
+2016-06-03 01:43:34.019  INFO 9508 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-06-03 01:43:34.020  INFO 9508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.33
+2016-06-03 01:43:34.241  INFO 9508 --- [localhost-startStop-1] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2016-06-03 01:43:34.244  INFO 9508 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-06-03 01:43:34.245  INFO 9508 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1443 ms
+2016-06-03 01:43:34.471  INFO 9508 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2016-06-03 01:43:34.475  INFO 9508 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-06-03 01:43:34.475  INFO 9508 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-06-03 01:43:34.475  INFO 9508 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-06-03 01:43:34.476  INFO 9508 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2016-06-03 01:43:34.681  INFO 9508 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@48a242ce: startup date [Fri Jun 03 01:43:32 CST 2016]; root of context hierarchy
+2016-06-03 01:43:34.741  INFO 9508 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/wechat],methods=[GET || POST]}" onto public void cn.catkin.wechatest.controller.WechatCallbackapi.callback(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.Exception
+2016-06-03 01:43:34.744  INFO 9508 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2016-06-03 01:43:34.744  INFO 9508 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2016-06-03 01:43:34.763  INFO 9508 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-06-03 01:43:34.763  INFO 9508 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-06-03 01:43:34.787  INFO 9508 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2016-06-03 01:43:34.870  INFO 9508 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2016-06-03 01:43:34.944  INFO 9508 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 2580 (http)
+2016-06-03 01:43:34.947  INFO 9508 --- [main] cn.catkin.wechatest.App                  : Started App in 2.421 seconds (JVM running for 2.69)
+2016-06-03 01:43:56.389  INFO 9508 --- [http-nio-2580-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2016-06-03 01:43:56.390  INFO 9508 --- [http-nio-2580-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2016-06-03 01:43:56.398  INFO 9508 --- [http-nio-2580-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 8 ms
